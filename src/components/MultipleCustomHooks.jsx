@@ -13,13 +13,12 @@ export const MultipleCustomHooks = () => {
 
 
 
-  //const { data, isLoading, hasError } = useFetch(`https://www.breakingbadapi.com/api/quotes/${counter}`)
-  //const { data, isLoading, hasError } = useFetch(`https://zenquotes.io/api/random`)
-  const apiKey = '64717bfca60e84228039dcceb6716e03866c6b8b'
-  //const { data, isLoading, hasError } = useFetch(`https://zenquotes.io/api/random/${apiKey}`)
+  const apiKey = ''
+  
   const { data, isLoading, hasError } = useFetch(`https://zenquotes.io/api/quotes/${apiKey}`)
 
   
+
   /**
    * Destructuring the data object. 
    * Double negation:
@@ -29,7 +28,7 @@ export const MultipleCustomHooks = () => {
   //const { author, quote } = !!data && data[0];
   const { a, q, i } = !!data && data[`${counter}`];
 
-  //console.log({ data, isLoading, hasError })
+
   
     return (
     <>
