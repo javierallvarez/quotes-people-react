@@ -1,0 +1,129 @@
+/* 
+styles{
+  alphabetic: order;
+}
+*/ 
+
+$primary: #242424;
+$primary-bright: #3a3939;
+$secondary: #dfbb03;
+$secondary-bright: #ffd607;
+$twitter-blue: #088ee9;
+
+
+* {
+  color: #ffffffde;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  align-items: center;
+  background-color: $primary-bright;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+
+#root{
+  background-color: $primary;
+  border-radius: 2rem 0 2rem 0;
+  box-shadow: 13px 16px 5px 0px #2a2a2a92;
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  justify-content: space-between;
+  padding: 3rem;
+  width: 75%;
+}
+
+
+header{
+  align-items: end;
+  border-bottom: 1px solid gray;
+  display: flex;
+  height: 10%;
+  text-transform: uppercase;
+
+  h6{
+    color: $secondary;
+    font-weight: 900;
+  }
+
+  span{
+    font-weight: 100;
+  }
+
+}
+
+article{
+
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  h3{
+    color: $secondary-bright;
+    font-weight: 100;
+    margin-top: 1rem;
+  }
+}
+
+
+.button-box{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+button {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0.6em 1.2em;
+  transition: border-color 0.25s;
+  margin-left: 2rem;
+}
+
+button:hover {
+  border-color: $secondary;
+  transition: .5s;
+}
+
+.share{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+
+  i{
+    color: $twitter-blue;
+    font-size: 22px;
+  }
+
+}
+
+.share:hover{
+  color: $secondary;
+  transition: 1s;
+
+  i{
+    color: $secondary;
+    transition: 1s;
+  }
+
+}
+
+
