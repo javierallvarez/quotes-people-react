@@ -13,6 +13,5 @@ https://quotesfrompeople.netlify.app/
 
 
 
-
-https://user-images.githubusercontent.com/83608710/188928902-93d9a375-f790-4f22-a7b1-99386e414e38.mov
+![GIF para Readme Quote](https://user-images.githubusercontent.com/83608710/188929005-d4acdba0-4fe8-4d65-91b8-ef20e1851687.gif)
 
