@@ -2,7 +2,7 @@
 
 This is a web responsive application where the users can read quotes from influential figures throughout history and share their favorites on Twitter.
 
-Thanks to the great Zen Quotes API (https://zenquotes.io).
+Thanks to the great Type Fit API ([https://type.fit/api/quotes](https://type.fit/api/quotes)).
 
 I used React 18.2.0. 
 
